@@ -9,9 +9,9 @@ name: Java CI with Gradle
 
 on:
   workflow_dispatch:
-  schedule:
-  - cron: "13 4 * * *"
-   # branches: [ main ]
+  #schedule:
+  #- cron: "13 4 * * *"
+    branches: [ main ]
 jobs:
   build:
 
